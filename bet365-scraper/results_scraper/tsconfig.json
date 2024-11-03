@@ -1,0 +1,18 @@
+{
+    "compilerOptions": {
+      "target": "ES6",
+      "module": "commonjs",
+      "outDir": "./dist",
+      "rootDir": "./",
+      "strict": true,
+      "esModuleInterop": true
+    },
+    "include": [
+      "src/**/*",  // Include all TypeScript files in the `src` folder
+      "../odds_scraper/src/**/*" // Include all TypeScript files from the `odds_scraper/src` folder
+    ],
+    "exclude": [
+      "node_modules"
+    ]
+  }
+  
